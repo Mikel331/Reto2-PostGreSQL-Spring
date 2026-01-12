@@ -5,10 +5,11 @@ import jakarta.persistence.Embeddable;
 import java.io.Serializable;
 import java.util.Objects;
 
+@Embeddable
 public class JugadorPartidaID implements Serializable {
     
 
-      private Long jugadorId;
+    private Long jugadorId;
     private Long partidaId;
 
     // Getters y setters

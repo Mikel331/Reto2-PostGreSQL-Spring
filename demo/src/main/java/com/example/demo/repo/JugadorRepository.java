@@ -1,5 +1,6 @@
 package com.example.demo.repo;
 
-public class JugadorRepository {
-    
-}
+import org.springframework.data.jpa.repository.JpaRepository;
+import com.example.demo.model.Jugador;
+
+public interface JugadorRepository extends JpaRepository<Jugador, Long> {}
